@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+.VSCodeCounter/
+
+# torch 预训练权重缓存（首次运行会自动重新下载，约 548 MB，不要提交）
+_torch_cache/
+*.pth
+*.pt
+
+# 历史备份 / 中间产物
+output_before_fix*/
+output_*/_tv_sweep/
+output_*/_beta_sweep*/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
